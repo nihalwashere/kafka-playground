@@ -4,8 +4,10 @@
   "description": "Playing around with Kafka.js",
   "main": "server.js",
   "scripts": {
-    "test": "echo no tests",
-    "start": "node server.js"
+    "test": "echo NO TESTS!!!",
+    "start": "node server.js",
+    "docker-up": "docker-compose up -d",
+    "docker-down": "docker-compose down"
   },
   "repository": {
     "type": "git",

@@ -45,3 +45,19 @@ We have implemented a simple counter example where we have one `broker`, one `pr
 
 The `consumer` is subscribed to the topic on which the `producer` is generating messages. The `consumer` simply picks
 up the message and logs the output. In the output you can notice the `value` field, it keeps incrementing.
+
+#### How to start the server
+
+1. `yarn install` : To install all dependencies.
+
+2. `yarn run docker-up` : To spin up docker containers for `Zookeeper` and `Kafka`.
+
+3. To set the `HOST_IP` variable (required):
+
+   ```shell
+   export HOST_IP=$(ifconfig | grep -E "([0-9]{1,3}\.){3}[0-9]{1,3}" | grep -v 127.0.0.1 | awk '{ print $2 }' | cut -f2 -d: | head -n1)
+   ```
+
+   To understand why `HOST_IP` is required, check out https://github.com/wurstmeister/kafka-docker/wiki/Connectivity
+
+4. `yarn start` : To start the server.
