@@ -1,6 +1,6 @@
 # Playing around with Kafka.js
 
-This example demonstrates how we can setup [Kafka.js](https://kafka.js.org/) with Node.js. We have bootstrapped Winston logger with `Kafka.js` and of-course a small example demonstrating the communication between `producer` and `consumer`.
+This example demonstrates how we can setup [Kafka.js](https://kafka.js.org/) with `Node.js`. We have bootstrapped [Winston logger](https://github.com/winstonjs/winston#readme) with `Kafka.js` and of-course a small example demonstrating the communication between `producer` and `consumer`.
 
 ## Kafka.js
 
