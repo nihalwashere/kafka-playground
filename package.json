@@ -1,0 +1,25 @@
+{
+  "name": "kafka-playgroud",
+  "version": "1.0.0",
+  "description": "Playing around with Kafka.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo no tests",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihal9ns/kafka-playground.git"
+  },
+  "author": "Nihal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nihal9ns/kafka-playground/issues"
+  },
+  "homepage": "https://github.com/nihal9ns/kafka-playground#readme",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "kafkajs": "^1.11.0",
+    "winston": "^3.2.1"
+  }
+}
